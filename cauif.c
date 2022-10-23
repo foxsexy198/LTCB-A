@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+	int n;
+	scanf("%d", &n);
+	if (n>0)
+		printf("The absolute value of %d is %d", n, n);
+	else
+		printf("The absolute value of %d is %d", n, -n);
+		return 0;	
+}
